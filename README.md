@@ -9,10 +9,10 @@ Lightweight Neovim plugin to open or create today's journal markdown file.
 ```lua
 {
   "ernowo-git/obsivim",
-  cmd = "ObsivimToday",
+  cmd = "ObsivimToday", -- should start with uppercase later
   config = function()
     require("obsivim").setup({
-      dir = "~/Journal",
+      dir = "~/Journal", -- change it with your obsidian journal absolute path
     })
   end,
 }
